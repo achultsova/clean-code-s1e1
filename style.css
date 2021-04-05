@@ -36,7 +36,7 @@
 .task {
  width: 56%;
  display: inline-block;
- flex-grow: 1
+ flex-grow: 1;
 }
 
 .task-adding-form {
@@ -52,7 +52,8 @@ li, h3 {
  list-style:none;
 }
 
-.task-input,.button{
+.task-input,
+.button{
  outline:none;
 }
 
