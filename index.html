@@ -6,58 +6,58 @@
         rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" media="screen">
   </head>
-      <body class="page">
-        <header class="header">
-            <img src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix">
-            <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
-                Want more details?</a>
-        </header>
-        <main class="task-list-module">
-            <section class="adding-task">
-              <h3 class="task-list-subtitle">Add Item</h3>
-              <div class="adding-task__form">
-                <input id="adding-task__input" class="task-input" type="text">
-                <button id="add-button" class="button">Add</button>
-              </div>
-            </section>
-            section class="current-tasks">
-            <h3 class="task-list-subtitle">Todo</h3>
-            <ul class="task-list" id="current-tasks__list">
-             <li class="task-list__item">
-             <input class="task-input" type="checkbox">
-             <label class="task-name">Pay Bills</label>
+  <body class="page">
+    <header class="header">
+      <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix">
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
+          Want more details?</a>
+    </header>
+    <main class="task-list-module">
+      <section class="adding-task">
+        <h3 class="task-list-title">Add Item</h3>
+        <div class="adding-task__form">
+          <input id="adding-task__input" class="task-input" type="text">
+          <button id="add-btn" class="btn">Add</button>
+        </div>
+      </section>
+      <section class="current-tasks">
+        <h3 class="task-list-title">Todo</h3>
+        <ul class="task-list" id="current-tasks__list">
+          <li class="task-list__item">
+            <input class="task-input" type="checkbox">
+            <label class="task-name">Pay Bills</label>
             <input class="task-input" type="text">
-            <button class="button edit-task-btn">Edit</button>
-            <button class="button delete-task-btn">
-              <img class="button__image" src="./remove.svg" alt="Icon to delete task">
+            <button class="btn edit-task-btn">Edit</button>
+            <button class="btn delete-task-btn">
+              <img class="btn__image" src="./remove.svg" alt="Icon to delete task">
             </button>
-          </li> 
+          </li>
           <li class="task-list__item task-list__item_edit-mode">
             <input class="task-input" type="checkbox">
             <label class="task-name">Go Shopping</label>
             <input class="task-input" type="text" value="Go Shopping">
-            <button class="button edit-task-btn">Save</button>
-            <button class="button delete-task-btn">
-              <img class="button__image" src="./remove.svg" alt="Icon to delete task">
+            <button class="btn edit-task-btn">Save</button>
+            <button class="btn delete-task-btn">
+              <img class="btn__image" src="./remove.svg" alt="Icon to delete task">
             </button>
           </li>
         </ul>
       </section>
       <section class="completed-tasks">
-        <h3 class="task-list-subtitle">Completed</h3>
+        <h3 class="task-list-title">Completed</h3>
         <ul id="completed-tasks__list" class="task-list">
           <li class="task-list__item">
             <input class="task-input" type="checkbox" checked>
             <label class="task-name">See the Doctor</label>
             <input class="task-input" type="text">
-            <button class="button edit-task-btn">Edit</button>
-            <button class="button delete-task-btn">
-              <img class="button__image" src="./remove.svg" alt="Icon to delete task">
+            <button class="btn edit-task-btn">Edit</button>
+            <button class="btn delete-task-btn">
+              <img class="btn__image" src="./remove.svg" alt="Icon to delete task">
             </button>
           </li>
         </ul>
-       </section>
-        </main>
-        <script src="app.js"></script>
-      </body>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
 </html>
